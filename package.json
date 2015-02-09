@@ -1,0 +1,31 @@
+{
+  "name": "heapsnapshot-parser",
+  "version": "0.1.0",
+  "description": "Parses heapsnapshot files from node.js and Chrome V8.",
+  "author": "Jason Walton (https://github.com/jwalton)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwalton/node-heapsnapshot-parser.git"
+  },
+  "keywords": [
+    "v8",
+    "heap",
+    "heapsnapshot",
+    "snapshot",
+    "node",
+    "nodejs",
+    "memory",
+    "leak"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.1.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.0"
+  },
+  "main": "./lib/HeapSnapshot.js",
+  "scripts": {
+    "prepublish": "coffee -c -o lib src"
+  }
+}
