@@ -3,6 +3,8 @@ Parses heapsnapshot files from node.js and Chrome V8.
 Install
 =======
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jwalton/node-heapsnapshot-parser.svg)](https://greenkeeper.io/)
+
 npm install --save heapsnapshot-parser
 
 Usage
